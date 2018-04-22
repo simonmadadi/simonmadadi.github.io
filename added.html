@@ -1,0 +1,932 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <title>Kitchen Count</title>
+  <!-- Bootstrap core CSS-->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Custom fonts for this template-->
+  <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+  <!-- Custom styles for this template-->
+  <link href="css/sb-admin.css" rel="stylesheet"> 
+    
+  <!-- Isotope CSS -->
+  <link rel="stylesheet" href="css/isotope-docs.css" media="screen">
+    
+</head>
+
+<body class="fixed-nav sticky-footer bg-light" id="page-top">
+  <!-- Navigation-->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top" id="mainNav">
+    <a class="navbar-brand" href="index.html"><img src= img/logo-1.png width="150px;"> </a>
+    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+      
+    <!-- Start of top nav -->
+      
+    <div class="collapse navbar-collapse" id="navbarResponsive">
+      <ul class="navbar-nav navbar-sidenav" id="exampleAccordion">
+        <li class="nav-item" data-toggle="tooltip" data-placement="right" title="Dashboard">
+          <a class="nav-link" href="index.html">
+           
+            <span class="nav-link-text">All My Food</span>
+          </a>
+        </li>
+        <li class="nav-item" data-toggle="tooltip" data-placement="right" title="Charts">
+          <a class="nav-link" href="fridge.html">
+            
+            <span class="nav-link-text">Fridge</span>
+          </a>
+        </li>
+        <li class="nav-item" data-toggle="tooltip" data-placement="right" title="Tables">
+          <a class="nav-link" href="freezer.html">
+          
+            <span class="nav-link-text">Freezer</span>
+          </a>
+        </li>
+        
+           <li class="nav-item" data-toggle="tooltip" data-placement="right" title="Tables">
+          <a class="nav-link" href="pantry.html">
+          
+            <span class="nav-link-text">Pantry</span>
+          </a>
+        </li>
+          
+          
+          
+          
+        <!--<li class="nav-item" data-toggle="tooltip" data-placement="right" title="Components">
+          <a class="nav-link nav-link-collapse collapsed" data-toggle="collapse" href="#collapseComponents" data-parent="#exampleAccordion">
+            <i class="fa fa-fw fa-wrench"></i> 
+            <span class="nav-link-text">Pantry</span> -->
+        <!--  </a>
+          <ul class="sidenav-second-level collapse" id="collapseComponents">
+            <li>
+              <a href="navbar.html">Navbar</a>
+            </li>
+            <li>
+              <a href="cards.html">Cards</a>
+            </li>
+          </ul>
+        </li>
+        <li class="nav-item" data-toggle="tooltip" data-placement="right" title="Example Pages">
+          <a class="nav-link nav-link-collapse collapsed" data-toggle="collapse" href="#collapseExamplePages" data-parent="#exampleAccordion">
+            <i class="fa fa-fw fa-file"></i>
+            <span class="nav-link-text">Example Pages</span>
+          </a>
+          <ul class="sidenav-second-level collapse" id="collapseExamplePages">
+            <li>
+              <a href="login.html">Login Page</a>
+            </li>
+            <li>
+              <a href="register.html">Registration Page</a>
+            </li>
+            <li>
+              <a href="forgot-password.html">Forgot Password Page</a>
+            </li>
+            <li>
+              <a href="blank.html">Blank Page</a>
+            </li>
+          </ul>
+        </li>
+        <li class="nav-item" data-toggle="tooltip" data-placement="right" title="Menu Levels">
+          <a class="nav-link nav-link-collapse collapsed" data-toggle="collapse" href="#collapseMulti" data-parent="#exampleAccordion">
+            <i class="fa fa-fw fa-sitemap"></i>
+            <span class="nav-link-text">Menu Levels</span>
+          </a>
+          <ul class="sidenav-second-level collapse" id="collapseMulti">
+            <li>
+              <a href="#">Second Level Item</a>
+            </li>
+            <li>
+              <a href="#">Second Level Item</a>
+            </li>
+            <li>
+              <a href="#">Second Level Item</a>
+            </li>
+            <li>
+              <a class="nav-link-collapse collapsed" data-toggle="collapse" href="#collapseMulti2">Third Level</a>
+              <ul class="sidenav-third-level collapse" id="collapseMulti2">
+                <li>
+                  <a href="#">Third Level Item</a>
+                </li>
+                <li>
+                  <a href="#">Third Level Item</a>
+                </li>
+                <li>
+                  <a href="#">Third Level Item</a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+        <li class="nav-item" data-toggle="tooltip" data-placement="right" title="Link">
+          <a class="nav-link" href="#">
+            <i class="fa fa-fw fa-link"></i>
+            <span class="nav-link-text">Link</span>
+          </a>
+        </li> -->
+     
+          
+        
+    <!-- start of TOP NAV -->    
+        
+     <!-- <ul class="navbar-nav ml-auto">
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle mr-lg-2" id="messagesDropdown" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <i class="fa fa-fw fa-envelope"></i>
+            <span class="d-lg-none">Messages
+              <span class="badge badge-pill badge-primary">12 New</span>
+            </span>
+            <span class="indicator text-primary d-none d-lg-block">
+              <i class="fa fa-fw fa-circle"></i>
+            </span>
+          </a>
+          <div class="dropdown-menu" aria-labelledby="messagesDropdown">
+            <h6 class="dropdown-header">New Messages:</h6>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">
+              <strong>David Miller</strong>
+              <span class="small float-right text-muted">11:21 AM</span>
+              <div class="dropdown-message small">Hey there! This new version of SB Admin is pretty awesome! These messages clip off when they reach the end of the box so they don't overflow over to the sides!</div>
+            </a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">
+              <strong>Jane Smith</strong>
+              <span class="small float-right text-muted">11:21 AM</span>
+              <div class="dropdown-message small">I was wondering if you could meet for an appointment at 3:00 instead of 4:00. Thanks!</div>
+            </a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">
+              <strong>John Doe</strong>
+              <span class="small float-right text-muted">11:21 AM</span>
+              <div class="dropdown-message small">I've sent the final files over to you for review. When you're able to sign off of them let me know and we can discuss distribution.</div>
+            </a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item small" href="#">View all messages</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle mr-lg-2" id="alertsDropdown" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <i class="fa fa-fw fa-bell"></i>
+            <span class="d-lg-none">Alerts
+              <span class="badge badge-pill badge-warning">6 New</span>
+            </span>
+            <span class="indicator text-warning d-none d-lg-block">
+              <i class="fa fa-fw fa-circle"></i>
+            </span>
+          </a>
+          <div class="dropdown-menu" aria-labelledby="alertsDropdown">
+            <h6 class="dropdown-header">New Alerts:</h6>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">
+              <span class="text-success">
+                <strong>
+                  <i class="fa fa-long-arrow-up fa-fw"></i>Status Update</strong>
+              </span>
+              <span class="small float-right text-muted">11:21 AM</span>
+              <div class="dropdown-message small">This is an automated server response message. All systems are online.</div>
+            </a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">
+              <span class="text-danger">
+                <strong>
+                  <i class="fa fa-long-arrow-down fa-fw"></i>Status Update</strong>
+              </span>
+              <span class="small float-right text-muted">11:21 AM</span>
+              <div class="dropdown-message small">This is an automated server response message. All systems are online.</div>
+            </a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">
+              <span class="text-success">
+                <strong>
+                  <i class="fa fa-long-arrow-up fa-fw"></i>Status Update</strong>
+              </span>
+              <span class="small float-right text-muted">11:21 AM</span>
+              <div class="dropdown-message small">This is an automated server response message. All systems are online.</div>
+            </a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item small" href="#">View all alerts</a>
+          </div>
+        </li>
+        <li class="nav-item">
+          <form class="form-inline my-2 my-lg-0 mr-lg-2">
+            <div class="input-group">
+              <input class="form-control" type="text" placeholder="Search for...">
+              <span class="input-group-append">
+                <button class="btn btn-primary" type="button">
+                  <i class="fa fa-search"></i>
+                </button>
+              </span>
+            </div>
+          </form>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" data-toggle="modal" data-target="#exampleModal">
+            <i class="fa fa-fw fa-sign-out"></i>Logout</a>
+        </li>
+      </ul>
+        <!-- End of top Nav -->
+        
+    </div>
+    </nav>
+      <!-- end of NAV -->
+      
+  </nav>
+  <div class="content-wrapper">
+    <div class="container-fluid">
+      <!-- Breadcrumbs-->
+     <!-- <ol class="breadcrumb">
+        <li class="breadcrumb-item">
+          <a href="index.html">Dashboard</a>
+        </li>
+        <li class="breadcrumb-item active">Blank Page</li>
+      </ol> -->
+      <div class="row">
+          
+        <div class="col-12">
+          <h3>My Food</h3>
+  
+            
+            
+<!-- original placement and title for ADD ITEM BTN -->
+<!-- <p><button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">
+ Add Food Item </button></p> -->
+        
+            
+<!-- start of the modal code for adding items -->            
+<!-- Modal -->
+<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h3 class="modal-title" id="exampleModalLongTitle">Add Food Item</h3>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        
+          
+          
+          <div class="card-body">
+        <form>
+          <div class="form-group">
+            <div class="form-row">
+              <div class="col-md-6">
+                <label for="exampleInputName">Item Name</label>
+                <input class="form-control" id="exampleInputName" type="text" aria-describedby="nameHelp" placeholder="Enter the name of the food item">
+              </div>
+              <div class="col-md-6">
+                <label for="exampleInputLastName">Quantity</label>
+                <input class="form-control" id="exampleInputLastName" type="text" aria-describedby="nameHelp" placeholder="Enter last name">
+              </div>
+            </div>
+          </div>
+            
+            
+            
+          <div class="form-group">
+            <label for="exampleInputEmail1">Expiration</label>
+            <input class="form-control" id="exampleInputEmail1" type="email" aria-describedby="emailHelp" placeholder="Enter email">
+          </div>
+            
+          <div class="form-group">
+            <div class="form-row">
+              <div class="col-md-6">
+                <label for="exampleInputPassword1">Password</label>
+                <input class="form-control" id="exampleInputPassword1" type="password" placeholder="Password">
+              </div>
+              <div class="col-md-6">
+                <label for="exampleConfirmPassword">Confirm password</label>
+                <input class="form-control" id="exampleConfirmPassword" type="password" placeholder="Confirm password">
+              </div>
+            </div>
+          </div>
+         
+        </form>
+        
+      </div>
+          
+          
+          
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary btn-sm" data-dismiss="modal">Cancel</button>
+        <!--<button class="insert-button btn-primary">Add</button> -->
+          
+          
+      <button type="button" class="btn btn-primary btn-sm" data-dismiss="modal">Add item</button>
+      </div>
+    </div>
+  </div>
+</div>
+          
+<!-- End of the modal for adding items -->            
+
+<!-- Modal for edit -->            
+<div class="modal fade" id="editmodal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h3> Strawberries</h3>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
+        <button type="button" class="btn btn-primary">Save</button>
+      </div>
+    </div>
+  </div>
+</div>            
+      
+            
+            
+            
+
+         <!-- <p>This is a visual list of all the items you have in your fridge.</p> -->
+            
+            
+            
+            <!-- ISOTOPE integration -->
+      
+       <div class="big-demo" data-js="hero-demo">
+
+              <!--
+  <div class="ui-group">
+    <h3 class="ui-group__title">Filter</h3>
+    <div class="filters button-group js-radio-button-group">
+      <button class="button is-checked" data-filter="*">show all</button>
+      <button class="button" data-filter=".metal">Meat</button>
+      <button class="button" data-filter=".transition">Dairy</button>
+      <button class="button" data-filter="ium">Fruit</button>
+    </div>
+  </div>
+  <div class="ui-group">
+    <h3 class="ui-group__title">Sort</h3>
+    <div class="sort-by button-group js-radio-button-group">
+      <button class="button is-checked" data-sort-by="original-order">original order</button>
+      <button class="button" data-sort-by="name">Name</button>
+      <button class="button" data-sort-by="symbol">Quantity</button>
+      <button class="button" data-sort-by="Expiration">Expiration</button>
+    </div>
+  </div> -->
+
+
+<!--<pre class="code-display"><code>$grid.isotope({
+  itemSelector: <span class="string">&apos;.element-item&apos;</span>,
+  layoutMode: <span class="string">&apos;fitRows&apos;</span>,
+  ...
+})</code></pre> -->
+           
+          
+
+  <div class="grid">
+      
+      <div class="element-item fruit " data-category="fruit" data-toggle="modal" data-target="#editmodal">
+        <h5 class="name">Strawberries</h5>      
+          <p class="symbol"><img src= img/strawberries.jpg width="45px;" style="border-radius:50px;"></p>  
+        <p class="type">Fruit</p>      
+        <p class="bar"><img src= img/50.png ></p>   
+        <p class="weight">300/600 grams</p>  
+        <p class="number">6 Days Left</p>   
+      </div>
+      
+ <div class="element-item snack " data-category="snack">
+        <h5 class="name">Crackers</h5>
+        <p class="symbol"><img src= img/crackers.jpg width="45px;" style="border-radius:50px;"></p>  
+       <!-- <p class="symbol"><img src= img/apples.jpg width="45px;"></p> -->
+        <p class="type">Snack</p>
+        <p class="bar"><img src= img/16.png ></p>   
+        <p class="weight">100/600 grams</p>  
+        <p class="number">30 Days Left</p>  
+      </div>
+       
+    
+       <div class="element-item vegetable " data-category="post-transition">
+        <h5 class="name">Broccoli</h5>
+        <p class="symbol"><img src= img/broc.jpg width="45px;" style="border-radius:50px;"></p>  
+        <!--<p class="symbol"><img src= img/lettuce.jpg width="45px;"></p> -->
+         <p class="type">Vegetable</p>
+        <p class="bar"><img src= img/50.png ></p>   
+        <p class="weight">300/600 grams</p>  
+        <p class="number">12 Days Left</p>  
+      </div>
+      
+      <div class="element-item dairy " data-category="dairy">
+        <h5 class="name">Yogurt</h5>
+         <p class="symbol"><img src= img/yogurt.jpg width="45px;" style="border-radius:50px;"></p>  
+        <!--<p class="symbol"><img src= img/lettuce.jpg width="45px;"></p> -->
+         <p class="type">Dairy</p>
+        <p class="bar"><img src= img/50.png ></p>   
+        <p class="weight">250/500 grams</p>  
+        <p class="number">12 Days Left</p>  
+      </div>
+      
+      
+      <div class="element-item meat " data-category="meat" data-toggle="modal" data-target="#editmodal">
+        <h5 class="name">Bacon</h5>      
+          <p class="symbol"><img src= img/bacon.jpg width="45px;" style="border-radius:50px;"></p>  
+        <p class="type">Meat</p>      
+        <p class="bar"><img src= img/10.png ></p>   
+        <p class="weight">75/700 grams</p>  
+        <p class="number">6 Days Left</p>   
+      </div>
+      
+      
+      <div class="element-item snack " data-category="snack">
+        <h5 class="name">Pretzels</h5>
+        <p class="symbol"><img src= img/pretzels.jpg width="45px;" style="border-radius:50px;"></p>  
+       <!-- <p class="symbol"><img src= img/apples.jpg width="45px;"></p> -->
+        <p class="type">Snack</p>
+        <p class="bar"><img src= img/60.png ></p>   
+        <p class="weight">400/600 grams</p>  
+        <p class="number">43 Days Left</p>  
+      </div>
+      
+      
+      <div class="element-item seafood " data-category="seafood">
+        <h5 class="name">Shrimp</h5>
+      <!-- <p class="symbol"><img src= img/milk.jpg width="45px;"></p> -->   
+      <!-- <img class="img-circle" src="img/milk.jpg" width="45px" height="45px";> -->
+          <p class="symbol"><img src= img/shrimp.jpg width="45px;" style="border-radius:50px;"></p>
+          <p class="type">Seafood</p>
+        <p class="bar"><img src= img/32.png ></p>   
+        <p class="weight">200/600 grams</p>  
+        <p class="number">4 Days Left</p>   
+      </div>
+      
+      
+      <div class="element-item fruit " data-category="fruit">
+        <h5 class="name">Apples</h5>
+        <p class="symbol"><img src= img/apples.jpg width="45px;" style="border-radius:50px;"></p>  
+       <!-- <p class="symbol"><img src= img/apples.jpg width="45px;"></p> -->
+        <p class="type">Fruit</p>
+        <p class="bar"><img src= img/100.png ></p>   
+        <p class="weight">900/900 grams</p>  
+        <p class="number">14 Days Left</p>  
+      </div>
+      
+      
+      
+      <div class="element-item seafood " data-category="seafood">
+        <h5 class="name">Salmon</h5>
+        <p class="symbol"><img src= img/salmon.jpg width="45px;" style="border-radius:50px;"></p>  
+      <!--  <p class="symbol"><img src= img/salmon.jpg width="45px;"></p> -->
+        <p class="type">Seafood</p>
+        <p class="bar"><img src= img/40.png ></p>   
+        <p class="weight">220/560 grams</p>  
+        <p class="number">1 Days Left</p>  
+      </div>
+      
+       <div class="element-item snack " data-category="snack">
+        <h5 class="name">Cookies</h5>
+        <p class="symbol"><img src= img/cookies.jpg width="45px;" style="border-radius:50px;"></p>  
+       <!-- <p class="symbol"><img src= img/apples.jpg width="45px;"></p> -->
+        <p class="type">Snack</p>
+        <p class="bar"><img src= img/16.png ></p>   
+        <p class="weight">100/600 grams</p>  
+        <p class="number">23 Days Left</p>  
+      </div>
+      
+      
+      <div class="element-item vegetable " data-category="post-transition">
+        <h5 class="name">Lettuce</h5>
+        <p class="symbol"><img src= img/lettuce.jpg width="45px;" style="border-radius:50px;"></p>  
+        <!--<p class="symbol"><img src= img/lettuce.jpg width="45px;"></p> -->
+         <p class="type">Vegetable</p>
+        <p class="bar"><img src= img/50.png ></p>   
+        <p class="weight">300/600 grams</p>  
+        <p class="number">12 Days Left</p>  
+      </div>
+      
+      <div class="element-item dairy " data-category="transition">
+        <h5 class="name">Cheddar Cheese</h5>
+        <p class="symbol"><img src= img/cheddar.jpg width="45px;" style="border-radius:50px;"></p>  
+        <!--<p class="symbol"><img src= img/lettuce.jpg width="45px;"></p> -->
+         <p class="type">Dairy</p>
+        <p class="bar"><img src= img/16.png ></p>   
+        <p class="weight">80/800 grams</p>  
+        <p class="number">38 Days Left</p>  
+      </div>
+      
+      
+      <div class="element-item dryfood " data-category="dryfood">
+        <h5 class="name">Oatmeal</h5>
+       <p class="symbol"><img src= img/oat.jpg width="45px;" style="border-radius:50px;"></p>  
+        <!--<p class="symbol"><img src= img/lettuce.jpg width="45px;"></p> -->
+         <p class="type">Dryfood</p>
+        <p class="bar"><img src= img/80.png ></p>   
+        <p class="weight">800/1000 grams</p>  
+        <p class="number">200 Days Left</p>  
+      </div>
+      
+      
+      <div class="element-item meat " data-category="meat">
+        <h5 class="name">Turkey</h5>
+         <p class="symbol"><img src= img/turkey.jpg width="45px;" style="border-radius:50px;"></p>  
+        <!--<p class="symbol"><img src= img/lettuce.jpg width="45px;"></p> -->
+         <p class="type">Meat</p>
+        <p class="bar"><img src= img/16.png ></p>   
+        <p class="weight">80/800 grams</p>  
+        <p class="number">3 Days Left</p>  
+      </div>
+      
+      
+      <div class="element-item fruit " data-category="fruit">
+        <h5 class="name">Bananas</h5>
+        <p class="symbol"><img src= img/banana.jpg width="45px;" style="border-radius:50px;"></p>  
+       <!-- <p class="symbol"><img src= img/apples.jpg width="45px;"></p> -->
+        <p class="type">Fruit</p>
+        <p class="bar"><img src= img/100.png ></p>   
+        <p class="weight">600/1000 grams</p>  
+        <p class="number">4 Days Left</p>  
+      </div>
+      
+      <div class="element-item vegetable " data-category="alkali">
+        <h5 class="name">Tomatoes</h5>
+         <p class="symbol"><img src= img/tomatoes.jpg width="45px;" style="border-radius:50px;"></p>  
+        <!--<p class="symbol"><img src= img/lettuce.jpg width="45px;"></p> -->
+         <p class="type">Vegetable</p>
+        <p class="bar"><img src= img/50.png ></p>   
+        <p class="weight">400/800 grams</p>  
+        <p class="number">9 Days Left</p>  
+      </div>
+      
+      <div class="element-item dairy " data-category="dairy">
+        <h5 class="name">Mozzarella Cheese</h5>
+         <p class="symbol"><img src= img/mozz.jpg width="45px;" style="border-radius:50px;"></p>  
+        <!--<p class="symbol"><img src= img/lettuce.jpg width="45px;"></p> -->
+         <p class="type">Dairy</p>
+        <p class="bar"><img src= img/50.png ></p>   
+        <p class="weight">350/700 grams</p>  
+        <p class="number">10 Days Left</p>  
+      </div>
+      
+      <div class="element-item dryfood " data-category="transition">
+        <h5 class="name">Flour</h5>
+         <p class="symbol"><img src= img/flour.jpg width="45px;" style="border-radius:50px;"></p>  
+        <!--<p class="symbol"><img src= img/lettuce.jpg width="45px;"></p> -->
+         <p class="type">Dryfood</p>
+        <p class="bar"><img src= img/100.png ></p>   
+        <p class="weight">980/980 grams</p>  
+        <p class="number">160 Days Left</p>  
+      </div>
+      
+      <div class="element-item dryfood " data-category="dryfood">
+        <h5 class="name">Peanuts</h5>
+       <p class="symbol"><img src= img/peanuts.jpg width="45px;" style="border-radius:50px;"></p>  
+        <!--<p class="symbol"><img src= img/lettuce.jpg width="45px;"></p> -->
+         <p class="type">Dryfood</p>
+        <p class="bar"><img src= img/80.png ></p>   
+        <p class="weight">800/1000 grams</p>  
+        <p class="number">180 Days Left</p>  
+      </div>
+      
+      <div class="element-item dairy " data-category="transition">
+        <h5 class="name">Butter</h5>
+        <p class="symbol"><img src= img/butter.jpg width="45px;" style="border-radius:50px;"></p>  
+        <!--<p class="symbol"><img src= img/lettuce.jpg width="45px;"></p> -->
+         <p class="type">Dairy</p>
+        <p class="bar"><img src= img/80.png ></p>   
+        <p class="weight">700/800 grams</p>  
+        <p class="number">48 Days Left</p>  
+      </div>
+      
+      
+       <div class="element-item meat " data-category="meat">
+        <h5 class="name">Sirloin Steak</h5>
+       <p class="symbol"><img src= img/steak.jpg width="45px;" style="border-radius:50px;"></p>  
+        <!--<p class="symbol"><img src= img/lettuce.jpg width="45px;"></p> -->
+         <p class="type">Meat</p>
+        <p class="bar"><img src= img/75.png ></p>   
+        <p class="weight">650/1000 grams</p>  
+        <p class="number">12 Days Left</p>  
+      </div>
+      
+      <!-- NOT USED RIGHT NOW -->
+      
+    <!--
+
+
+
+<div class="element-item alkaline-earth metal " data-category="alkaline-earth">
+        <h5 class="name">Calcium</h5>
+        <p class="symbol"><img src= img/ width="45px;"></p>
+        <p class="number">20</p>
+        <p class="weight">40.078</p>
+      </div>
+
+
+
+
+
+<div class="element-item metalloid " data-category="metalloid">
+        <h5 class="name">Antimony</h5>
+        <p class="symbol">Sb</p>
+        <p class="number">51</p>
+        <p class="weight">121.76</p>
+      </div>
+      <div class="element-item transition metal " data-category="transition">
+        <h5 class="name">Cobalt</h5>
+        <p class="symbol">Co</p>
+        <p class="number">27</p>
+        <p class="weight">58.933</p>
+      </div>
+      <div class="element-item lanthanoid metal inner-transition " data-category="lanthanoid">
+        <h5 class="name">Ytterbium</h5>
+        <p class="symbol">Yb</p>
+        <p class="number">70</p>
+        <p class="weight">173.054</p>
+      </div>
+      <div class="element-item noble-gas nonmetal " data-category="noble-gas">
+        <h5 class="name">Argon</h5>
+        <p class="symbol">Ar</p>
+        <p class="number">18</p>
+        <p class="weight">39.948</p>
+      </div>
+      <div class="element-item diatomic nonmetal " data-category="diatomic">
+        <h5 class="name">Nitrogen</h5>
+        <p class="symbol">N</p>
+        <p class="number">7</p>
+        <p class="weight">14.007</p>
+      </div>
+      <div class="element-item actinoid metal inner-transition " data-category="actinoid">
+        <h5 class="name">Uranium</h5>
+        <p class="symbol">U</p>
+        <p class="number">92</p>
+        <p class="weight">238.029</p>
+      </div>
+      <div class="element-item actinoid metal inner-transition " data-category="actinoid">
+        <h5 class="name">Plutonium</h5>
+        <p class="symbol">Pu</p>
+        <p class="number">94</p>
+        <p class="weight">(244)</p>
+      </div> -->
+  </div>
+
+  
+              
+              
+            <!--  <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top" id="mainNav"> -->
+              
+              
+              
+<!-- original nav -->              
+<!--<nav class="navbar navbar-default fixed-bottom"> -->
+    <nav class="navbar navbar-expand-lg bg-light fixed-bottom">              
+     <!-- <div class="container"> -->
+        
+            <p>
+                <a class="btn btn-primary btn-sm" 
+                   data-toggle="collapse" 
+                   href="#collapseExample" 
+                   role="button" 
+                   aria-expanded="false" 
+                   aria-controls="collapseExample">Filter &amp; Sort
+                </a>
+            </p>
+        
+                
+                <p><button type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#exampleModalCenter"> Add Item </button></p>
+                
+                
+
+<div class="collapse" id="collapseExample">
+    <!-- card for nav -->
+    <!-- <div class="card card-body"> -->
+  
+      
+      
+  <!--filter original -->    
+ <!--      <div class="ui-group">
+    <h3 class="ui-group__title">Filter</h3>
+    <div class="filters button-group js-radio-button-group">
+      <button class="button is-checked" data-filter="*">show all</button>
+      <button class="button" data-filter=".metal">Meat</button>
+      <button class="button" data-filter=".dairy">Dairy</button>
+      <button class="button" data-filter=".fruit">Fruit</button>
+    </div>
+  </div>  -->    
+    
+    <!--        <div class="ui-group">
+    <h5>Filter</h5>
+    <div class="filters button-group js-radio-button-group btn-sm">
+      <button class="button is-checked" data-filter="*">All</button>
+      <button class="button" data-filter=".metal">Meat</button>
+      <button class="button" data-filter=".dairy">Dairy</button>
+      <button class="button" data-filter=".fruit">Fruit</button>
+    </div>
+  </div> -->
+      
+      <div class="ui-group"> 
+           
+    <!--    <div class="ui-group"> -->
+     <!--  <h5>Filter</h5> --> 
+    <div class="filters button-groups js-radio-button-group btn-sm">
+      <h5>Filter</h5>    
+      
+          
+      <button class="button is-checked" data-filter="*">All</button>
+      <button class="button" data-filter=".meat">Meat</button>
+      <button class="button" data-filter=".dairy">Dairy</button>
+      <button class="button" data-filter=".seafood">Seafood</button>    
+      <button class="button" data-filter=".fruit">Fruit</button>
+      <button class="button" data-filter=".snack">Snack</button>     
+      <button class="button" data-filter=".vegetable">Vegetable</button>    
+      <button class="button" data-filter=".dryfood">Dry food</button>
+           
+    </div>
+          
+  </div>
+    
+  <div class="ui-group">
+    <!--<h6 class="ui-group__title">Sort</h6> -->
+   <!-- <h5>Sort</h5>  -->
+    <div class="sort-by button-groups js-radio-button-group btn-sm">
+      <h5>Sort</h5>  
+      <button class="button is-checked" data-sort-by="original-order">Original</button>
+      <button class="button" data-sort-by="name">Name</button>
+     
+      <button class="button" data-sort-by="number">Expiration</button>
+      <button class="button" data-sort-by="weight">Weight</button>    
+    </div>
+  </div>
+      
+      
+      
+      
+  <!--</div> -->
+</div>
+                  
+    <!--    </div> -->
+        
+        
+</nav>
+         
+              
+              
+              
+              
+              
+              
+              
+ </div> 
+            
+            
+            
+            
+            
+    <!-- end of ISOTOPE code -->        
+            
+        </div>
+      </div>
+    </div>
+    <!-- /.container-fluid-->
+    <!-- /.content-wrapper-->
+      
+    <!-- original footer -->  
+      
+   <!-- <footer class="sticky-footer">
+      <div class="container">
+        <div class="text-center">
+          <small>Copyright © Your Website 2018</small>
+        </div>
+      </div>
+    </footer> -->
+    <!-- Scroll to Top Button-->
+   
+      <!-- <a class="scroll-to-top rounded" href="#page-top">
+      <i class="fa fa-angle-up"></i>
+    </a> -->
+      
+      
+      <!-- lower nav bar -->
+      
+      
+      
+      
+      
+
+      
+      
+      
+      
+      
+      
+      
+      
+      
+     
+      
+      
+     <!-- <div class="collapse navbar-collapse" id="navbarResponsive"> -->
+      <!-- class="fixed-nav sticky-footer bg-dark" id="page-top">-->
+        
+      
+<!--       <nav class="navbar navbar-default fixed-bottom">
+      
+  <a class="navbar-brand" href="#">Fixed bottom</a>
+           
+           
+           
+             
+              <div class="container">
+        
+            
+            <p>
+  <a class="btn btn-primary" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+    Filter &amp; Sort
+  </a>
+  
+</p>
+<div class="collapse" id="collapseExample">
+  <div class="card card-body">
+  
+        <div class="ui-group">
+    <h3 class="ui-group__title">Filter</h3>
+    <div class="filters button-group js-radio-button-group">
+      <button class="button is-checked" data-filter="*">show all</button>
+      <button class="button" data-filter=".metal">Meat</button>
+      <button class="button" data-filter=".transition">Dairy</button>
+      <button class="button" data-filter="ium">Fruit</button>
+    </div>
+  </div>
+  <div class="ui-group">
+    <h3 class="ui-group__title">Sort</h3>
+    <div class="sort-by button-group js-radio-button-group">
+      <button class="button is-checked" data-sort-by="original-order">original order</button>
+      <button class="button" data-sort-by="name">Name</button>
+      <button class="button" data-sort-by="symbol">Quantity</button>
+      <button class="button" data-sort-by="Expiration">Expiration</button>
+    </div>
+  </div>
+      
+      
+      
+      
+  </div>
+</div>
+                  
+        </div>
+</nav>
+         
+         
+         -->
+       
+    
+     
+      
+      
+      
+      
+    <!-- Logout Modal-->
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Ready to Leave?</h5>
+            <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">×</span>
+            </button>
+          </div>
+          <div class="modal-body">Select "Logout" below if you are ready to end your current session.</div>
+          <div class="modal-footer">
+            <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancel</button>
+            <a class="btn btn-primary" href="login.html">Logout</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Bootstrap core JavaScript-->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <!-- Core plugin JavaScript-->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+    <!-- Custom scripts for all pages-->
+    <script src="js/sb-admin.min.js"></script>
+  </div>
+    
+    <!-- isotope JS -->
+    
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js/jquery.min.js"><\/script>')</script> 
+
+  <script src="js/isotope-docs.js"></script>
+  
+  <!--<script src="js/isotope.pkgd.js"></script> -->
+    
+</body>
+
+</html>
