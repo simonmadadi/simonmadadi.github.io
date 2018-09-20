@@ -1,0 +1,468 @@
+/* Flexbox styling */
+/* Mixin */
+/* line 9, /Users/guiplant/Projets/mtl-fca-static-vr360/src/main/assets/toolbox/scss/toolbox.scss */
+body.toolbox-wrapper {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+/* line 15, /Users/guiplant/Projets/mtl-fca-static-vr360/src/main/assets/toolbox/scss/toolbox.scss */
+.toolbox-desc {
+  color: teal;
+}
+
+/* line 19, /Users/guiplant/Projets/mtl-fca-static-vr360/src/main/assets/toolbox/scss/toolbox.scss */
+.toolbox-heading {
+  color: teal;
+  margin: 10px 0 20px;
+}
+
+/* line 24, /Users/guiplant/Projets/mtl-fca-static-vr360/src/main/assets/toolbox/scss/toolbox.scss */
+.margin-top {
+  margin-top: 40px;
+}
+
+/* line 28, /Users/guiplant/Projets/mtl-fca-static-vr360/src/main/assets/toolbox/scss/toolbox.scss */
+h1.toolbox-heading {
+  text-align: center;
+}
+
+/* line 32, /Users/guiplant/Projets/mtl-fca-static-vr360/src/main/assets/toolbox/scss/toolbox.scss */
+h2.toolbox-heading {
+  margin: 30px 0 20px;
+}
+
+/* line 36, /Users/guiplant/Projets/mtl-fca-static-vr360/src/main/assets/toolbox/scss/toolbox.scss */
+ul.toolbox {
+  padding-left: 0;
+}
+
+/* line 39, /Users/guiplant/Projets/mtl-fca-static-vr360/src/main/assets/toolbox/scss/toolbox.scss */
+ul.toolbox li {
+  list-style: none;
+  padding-left: 0;
+}
+
+/* line 44, /Users/guiplant/Projets/mtl-fca-static-vr360/src/main/assets/toolbox/scss/toolbox.scss */
+ul.toolbox ul.toolbox {
+  padding-left: 20px;
+}
+
+/* line 48, /Users/guiplant/Projets/mtl-fca-static-vr360/src/main/assets/toolbox/scss/toolbox.scss */
+ul.toolbox ul.toolbox li:before {
+  content: '\E102';
+  font-family: 'FCA Icons';
+  position: relative;
+  left: -10px;
+}
+
+/* line 59, /Users/guiplant/Projets/mtl-fca-static-vr360/src/main/assets/toolbox/scss/toolbox.scss */
+pre.toolbox {
+  width: 70%;
+  padding: 10px;
+  border: 0.1px solid #8fabab;
+  border-radius: 3px;
+  background-color: 1px solid #f5f7f7;
+}
+
+/* line 70, /Users/guiplant/Projets/mtl-fca-static-vr360/src/main/assets/toolbox/scss/toolbox.scss */
+.toolbox-wrapper .toolbox-content-wrapper {
+  width: 100%;
+  margin: 0 auto;
+}
+
+@media (min-width: 1328px) {
+  /* line 70, /Users/guiplant/Projets/mtl-fca-static-vr360/src/main/assets/toolbox/scss/toolbox.scss */
+  .toolbox-wrapper .toolbox-content-wrapper {
+    max-width: 1328px;
+  }
+}
+
+/* line 79, /Users/guiplant/Projets/mtl-fca-static-vr360/src/main/assets/toolbox/scss/toolbox.scss */
+.toolbox-wrapper .toolbox-section {
+  margin: 20px auto;
+  padding: 25px 0;
+  border-top: 1px solid #9db6b6;
+  border-bottom: 1px solid #9db6b6;
+  border-radius: 5px;
+}
+
+@media (min-width: 1328px) {
+  /* line 79, /Users/guiplant/Projets/mtl-fca-static-vr360/src/main/assets/toolbox/scss/toolbox.scss */
+  .toolbox-wrapper .toolbox-section {
+    border: 1px solid #9db6b6;
+  }
+}
+
+/* line 90, /Users/guiplant/Projets/mtl-fca-static-vr360/src/main/assets/toolbox/scss/toolbox.scss */
+.toolbox-wrapper .toolbox-section.toolbox-module {
+  padding: 10px 40px;
+}
+
+/* line 94, /Users/guiplant/Projets/mtl-fca-static-vr360/src/main/assets/toolbox/scss/toolbox.scss */
+.toolbox-wrapper .toolbox-section .toolbox-heading {
+  margin-left: 20px;
+}
+
+/* line 101, /Users/guiplant/Projets/mtl-fca-static-vr360/src/main/assets/toolbox/scss/toolbox.scss */
+.toolbox-content-wrapper .toolbox-summary {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px 10px;
+  border: 1px solid #8fabab;
+  border-radius: 5px;
+  background: #f5f7f7;
+}
+
+/* line 109, /Users/guiplant/Projets/mtl-fca-static-vr360/src/main/assets/toolbox/scss/toolbox.scss */
+.toolbox-content-wrapper .toolbox-summary .toolbox-summary-group {
+  flex: 0 0 100%;
+}
+
+@media (min-width: 768px) {
+  /* line 109, /Users/guiplant/Projets/mtl-fca-static-vr360/src/main/assets/toolbox/scss/toolbox.scss */
+  .toolbox-content-wrapper .toolbox-summary .toolbox-summary-group {
+    flex: 0 0 33%;
+  }
+}
+
+/* line 116, /Users/guiplant/Projets/mtl-fca-static-vr360/src/main/assets/toolbox/scss/toolbox.scss */
+.toolbox-content-wrapper .toolbox-summary .toolbox-summary-group a {
+  text-decoration: none;
+}
+
+/* line 120, /Users/guiplant/Projets/mtl-fca-static-vr360/src/main/assets/toolbox/scss/toolbox.scss */
+.toolbox-content-wrapper .toolbox-summary .toolbox-summary-group li {
+  padding: 2px 0;
+}
+
+/* line 127, /Users/guiplant/Projets/mtl-fca-static-vr360/src/main/assets/toolbox/scss/toolbox.scss */
+.toolbox-content-wrapper .toolbox-section-container .toolbox-back-to-top {
+  margin: 10px 20px 20px;
+  text-align: right;
+}
+
+/* line 131, /Users/guiplant/Projets/mtl-fca-static-vr360/src/main/assets/toolbox/scss/toolbox.scss */
+.toolbox-content-wrapper .toolbox-section-container .toolbox-back-to-top a[href="#top"] {
+  color: teal;
+}
+
+/* line 140, /Users/guiplant/Projets/mtl-fca-static-vr360/src/main/assets/toolbox/scss/toolbox.scss */
+.toolbox-box {
+  width: 100%;
+  overflow: auto;
+  margin: 10px auto;
+  padding: 10px 0;
+  border: 1px dotted #9db6b6;
+}
+
+/* line 148, /Users/guiplant/Projets/mtl-fca-static-vr360/src/main/assets/toolbox/scss/toolbox.scss */
+.toolbox-box-inline {
+  width: auto;
+  display: inline-block;
+  overflow: auto;
+  margin: 10px 10px 10px 0;
+  padding: 10px;
+  border: 1px dotted #9db6b6;
+}
+
+/* line 157, /Users/guiplant/Projets/mtl-fca-static-vr360/src/main/assets/toolbox/scss/toolbox.scss */
+.toolbox-selector {
+  display: inline-block;
+  padding: 0 5px;
+  background: #f5f7f7;
+  color: teal;
+  border-radius: 3px;
+  font-style: italic;
+  font-size: 12px;
+  line-height: 1.25;
+}
+
+/* line 167, /Users/guiplant/Projets/mtl-fca-static-vr360/src/main/assets/toolbox/scss/toolbox.scss */
+.toolbox-selector-label {
+  display: inline-block;
+  padding: 0 0 0 5px;
+  background: none;
+  font-style: italic;
+  font-size: 12px;
+  line-height: 1.25;
+}
+
+/* line 178, /Users/guiplant/Projets/mtl-fca-static-vr360/src/main/assets/toolbox/scss/toolbox.scss */
+table.toolbox th, table.toolbox td {
+  border: 1px solid #8fabab;
+  padding: 5px;
+}
+
+/* line 184, /Users/guiplant/Projets/mtl-fca-static-vr360/src/main/assets/toolbox/scss/toolbox.scss */
+.brand-switcher {
+  border: 1px solid #8fabab;
+  border-bottom: none;
+  position: absolute;
+  width: auto;
+  top: -47px;
+  left: 0;
+}
+
+/* line 185, /Users/guiplant/Projets/mtl-fca-static-vr360/src/main/assets/toolbox/scss/toolbox.scss */
+.brand-switcher li {
+  padding: 0;
+  min-width: 200px;
+}
+
+/* line 189, /Users/guiplant/Projets/mtl-fca-static-vr360/src/main/assets/toolbox/scss/toolbox.scss */
+.brand-switcher li a {
+  display: block;
+  width: 100%;
+  height: 45px;
+  line-height: 45px;
+  text-align: center;
+  text-transform: uppercase;
+  border-left: 1px solid #8fabab;
+  background: #e6ecec;
+}
+
+/* line 199, /Users/guiplant/Projets/mtl-fca-static-vr360/src/main/assets/toolbox/scss/toolbox.scss */
+.brand-switcher li a:hover {
+  background: #f5f7f7;
+  text-decoration: none;
+}
+
+/* line 204, /Users/guiplant/Projets/mtl-fca-static-vr360/src/main/assets/toolbox/scss/toolbox.scss */
+.brand-switcher li a.active {
+  background: #fff;
+}
+
+/* line 211, /Users/guiplant/Projets/mtl-fca-static-vr360/src/main/assets/toolbox/scss/toolbox.scss */
+.brand-switcher li:first-child a {
+  border: none;
+}
+
+/* line 224, /Users/guiplant/Projets/mtl-fca-static-vr360/src/main/assets/toolbox/scss/toolbox.scss */
+.toolbox-collapse {
+  position: relative;
+  margin-bottom: 20px;
+  border-radius: 3px;
+}
+
+/* line 229, /Users/guiplant/Projets/mtl-fca-static-vr360/src/main/assets/toolbox/scss/toolbox.scss */
+.toolbox-collapse > label {
+  display: block;
+  background: #f5f7f7;
+  border: 1px solid #8fabab;
+  padding: 20px 30px;
+  cursor: pointer;
+  font-family: "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 22px;
+  color: teal;
+}
+
+/* line 241, /Users/guiplant/Projets/mtl-fca-static-vr360/src/main/assets/toolbox/scss/toolbox.scss */
+.toolbox-collapse > label:hover, .toolbox-collapse > label:focus {
+  background: #eaf1f1;
+}
+
+/* line 247, /Users/guiplant/Projets/mtl-fca-static-vr360/src/main/assets/toolbox/scss/toolbox.scss */
+.toolbox-collapse .icons {
+  position: absolute;
+  right: 15px;
+  top: 10px;
+  font-size: 20px;
+  border: 1px solid teal;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  line-height: 38px;
+  text-align: center;
+  pointer-events: none;
+}
+
+/* line 260, /Users/guiplant/Projets/mtl-fca-static-vr360/src/main/assets/toolbox/scss/toolbox.scss */
+.toolbox-collapse .icons:before {
+  content: '\E104';
+  font-family: 'FCA Icons';
+  color: teal;
+}
+
+/* line 267, /Users/guiplant/Projets/mtl-fca-static-vr360/src/main/assets/toolbox/scss/toolbox.scss */
+.toolbox-collapse .toolbox-collapse-content {
+  max-height: 0;
+  overflow: hidden;
+  position: relative;
+}
+
+/* line 273, /Users/guiplant/Projets/mtl-fca-static-vr360/src/main/assets/toolbox/scss/toolbox.scss */
+.toolbox-collapse > input[type="checkbox"]:checked ~ .toolbox-collapse-content {
+  max-height: 10000px;
+  border: 1px solid #8fabab;
+  border-top: none;
+  padding: 20px 0;
+}
+
+@media (min-width: 768px) {
+  /* line 273, /Users/guiplant/Projets/mtl-fca-static-vr360/src/main/assets/toolbox/scss/toolbox.scss */
+  .toolbox-collapse > input[type="checkbox"]:checked ~ .toolbox-collapse-content {
+    padding: 20px 30px;
+  }
+}
+
+/* line 283, /Users/guiplant/Projets/mtl-fca-static-vr360/src/main/assets/toolbox/scss/toolbox.scss */
+.toolbox-collapse > input[type="checkbox"]:checked ~ .icons:before {
+  content: '\E105';
+}
+
+/* line 287, /Users/guiplant/Projets/mtl-fca-static-vr360/src/main/assets/toolbox/scss/toolbox.scss */
+.toolbox-collapse > input[type="checkbox"] {
+  display: none;
+}
+
+/* line 296, /Users/guiplant/Projets/mtl-fca-static-vr360/src/main/assets/toolbox/scss/toolbox.scss */
+.sticky-panel {
+  visibility: hidden;
+}
+
+/* line 299, /Users/guiplant/Projets/mtl-fca-static-vr360/src/main/assets/toolbox/scss/toolbox.scss */
+.sticky-panel.is-stuck {
+  left: 0;
+}
+
+/* line 304, /Users/guiplant/Projets/mtl-fca-static-vr360/src/main/assets/toolbox/scss/toolbox.scss */
+input[type="checkbox"]:checked ~ .toolbox-collapse-content .sticky-panel {
+  visibility: visible;
+}
+
+/* line 308, /Users/guiplant/Projets/mtl-fca-static-vr360/src/main/assets/toolbox/scss/toolbox.scss */
+#waypoints .sticky-panel {
+  padding: 10px;
+}
+
+/* line 311, /Users/guiplant/Projets/mtl-fca-static-vr360/src/main/assets/toolbox/scss/toolbox.scss */
+#waypoints .sticky-panel.first {
+  background: #e7e7e7;
+  color: green;
+  height: 50px;
+  top: 0;
+}
+
+/* line 318, /Users/guiplant/Projets/mtl-fca-static-vr360/src/main/assets/toolbox/scss/toolbox.scss */
+#waypoints .sticky-panel.second {
+  background: #e3e3e3;
+  color: blue;
+  top: 50px;
+}
+
+/* line 325, /Users/guiplant/Projets/mtl-fca-static-vr360/src/main/assets/toolbox/scss/toolbox.scss */
+#waypoints .sticky-panel.is-stuck {
+  color: red;
+  border: 1px solid red;
+}
+
+/* line 330, /Users/guiplant/Projets/mtl-fca-static-vr360/src/main/assets/toolbox/scss/toolbox.scss */
+#waypoints .sticky-panel.custom-stuck-class {
+  position: fixed;
+  z-index: 98;
+  color: blue;
+  border: 1px solid blue;
+  left: 0;
+}
+
+/* line 341, /Users/guiplant/Projets/mtl-fca-static-vr360/src/main/assets/toolbox/scss/toolbox.scss */
+#waypoints .toolbox-inview-example {
+  border: 1px solid #8fabab;
+  padding: 10px;
+}
+
+/* line 345, /Users/guiplant/Projets/mtl-fca-static-vr360/src/main/assets/toolbox/scss/toolbox.scss */
+#waypoints .toolbox-inview-example.is-inview {
+  color: red;
+}
+
+/* line 349, /Users/guiplant/Projets/mtl-fca-static-vr360/src/main/assets/toolbox/scss/toolbox.scss */
+#waypoints .toolbox-inview-example.custom-class {
+  color: blue;
+}
+
+/* line 355, /Users/guiplant/Projets/mtl-fca-static-vr360/src/main/assets/toolbox/scss/toolbox.scss */
+#province-selector .toolbox-collapse-content {
+  background: #ececec;
+}
+
+/* line 358, /Users/guiplant/Projets/mtl-fca-static-vr360/src/main/assets/toolbox/scss/toolbox.scss */
+#province-selector .toolbox-collapse-content .footer-province-selector {
+  display: inline-block;
+  margin-bottom: 200px;
+}
+
+/* line 366, /Users/guiplant/Projets/mtl-fca-static-vr360/src/main/assets/toolbox/scss/toolbox.scss */
+#pano .pano:not(.pano-video) {
+  position: relative;
+  overflow: hidden;
+}
+
+/* line 245, /Users/guiplant/Projets/mtl-fca-static-vr360/src/main/assets/brands/shared/_mixins.scss */
+#pano .pano:not(.pano-video):before {
+  content: "";
+  display: block;
+  float: left;
+}
+
+/* line 307, /Users/guiplant/Projets/mtl-fca-static-vr360/src/main/assets/brands/shared/_mixins.scss */
+#pano .pano:not(.pano-video):after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* line 255, /Users/guiplant/Projets/mtl-fca-static-vr360/src/main/assets/brands/shared/_mixins.scss */
+#pano .pano:not(.pano-video):before {
+  padding-bottom: 100%;
+}
+
+@media (min-width: 667px) {
+  /* line 366, /Users/guiplant/Projets/mtl-fca-static-vr360/src/main/assets/toolbox/scss/toolbox.scss */
+  #pano .pano:not(.pano-video) {
+    position: relative;
+    overflow: hidden;
+  }
+  /* line 245, /Users/guiplant/Projets/mtl-fca-static-vr360/src/main/assets/brands/shared/_mixins.scss */
+  #pano .pano:not(.pano-video):before {
+    content: "";
+    display: block;
+    float: left;
+  }
+  /* line 307, /Users/guiplant/Projets/mtl-fca-static-vr360/src/main/assets/brands/shared/_mixins.scss */
+  #pano .pano:not(.pano-video):after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  /* line 255, /Users/guiplant/Projets/mtl-fca-static-vr360/src/main/assets/brands/shared/_mixins.scss */
+  #pano .pano:not(.pano-video):before {
+    padding-bottom: 50%;
+  }
+}
+
+/* line 375, /Users/guiplant/Projets/mtl-fca-static-vr360/src/main/assets/toolbox/scss/toolbox.scss */
+.toolbox-svg-sprite svg {
+  color: blue;
+  fill: red;
+  animation: svg-sprite-example 3s infinite;
+}
+
+@keyframes svg-sprite-example {
+  0% {
+    color: blue;
+    fill: red;
+  }
+  50% {
+    color: black;
+    fill: green;
+  }
+  100% {
+    color: blue;
+    fill: red;
+  }
+}
