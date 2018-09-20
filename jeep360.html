@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+	<meta charset="utf-8">
+	<meta http-equiv="x-ua-compatible" content="ie=edge"
+
+	<meta name="msapplication-TileColor" content="#ec9d0d">
+	<meta name="theme-color" content="#ec9d0d">
+
+</head>
+<body>
+	<!-- Replace all instances of target/vr360-assets with proper path -->
+	<!-- If needed, use localization with the appropriate data attributes -->
+
+	<!-- 
+	thumbnailPath = preview image
+	image = main 360 image
+	all other labels shown below
+	don't recommend changing other numerical values
+	some browsers might require that path to the 'image' and 'preview' as full URLs
+	-->
+	<div class="vr360-block"
+		 data-ng-app="fca.static360"
+		 data-ng-strict-di
+		 data-fca-layout-transformer
+		 data-api-path=""
+		 data-page-has-chat-popup="false"> 
+		<fca-vr360 class="vr360 vr360-props"
+				   data-fca-layout-transformer=""
+				   data-icon-reset="target/vr360-assets/images/ui/360-icon-reset.svg"
+				   data-icon-pause="target/vr360-assets/images/ui/360-icon-pause.svg"
+				   data-brand-logo-path="target/vr360-assets/images/ui/2017-FCA-360-jeep.gif"
+				   data-brand="jeep"
+				   data-selected-index="0"
+				   data-custom-text="{
+					exitscreen: 'Exit Full Screen',
+					fullscreen: 'Full Screen',
+					zoomout: 'Zoom Out',
+					zoomin: 'Zoom In',
+					zoom: 'Zoom',
+					pause: 'Pause',
+					reset: 'Reset',
+					play: 'Play',
+					interior360: 'INTERIOR 360°',
+					modelshown: 'Model Shown: ',
+				   }"
+				   data-activate-cta="View 360° Interior"
+				   data-analytics-label="view 360° interior"
+				   data-context-id="vlp"
+				   data-group-id="interior"
+				   data-nameplate="cherokee"
+				   data-fullscreen-mode="transformer.isMobile"
+				   data-gallery-item-id="-1"
+				   data-object="[
+					{
+						name: 'Limited',
+						thumbnailPath: 'target/vr360-assets/images/interiors/jeep-north-kl-limited-preview.jpg',
+						image: 'target/vr360-assets/images/interiors/jeep-north-kl-limited-360.jpg',   
+						disclaimer: '',
+						resetZoom: 36,
+						defaultZoom: 65,
+						maxZoom: 20,
+						defaultX: 4050,
+						defaultY: 2100,
+						hotspots: []
+					}
+				]">
+		</fca-vr360>
+	</div>
+
+	<!-- Module Specific assets -->
+	<script src="target/vr360-assets/js/vr360-vendors.js"></script>
+	<script src="target/vr360-assets/js/templates.js"></script>
+	<script src="target/vr360-assets/js/vr360.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/webfont/1.5.18/webfont.js"></script>
+	<script>
+		$(document).ready(function() {
+			WebFont.load({
+				google: {
+					families: ['Roboto+Condensed:400,700','Roboto:700']
+				}
+			});
+		});
+	</script>
+	<link type="text/css" rel="stylesheet" href="target/vr360-assets/styles/app-vr360.css"/>
+	<link type="text/css" rel="stylesheet" href="target/vr360-assets/styles/vr360-vendors.css"/>
+	<!-- End Module Specific assets -->
+</body>
+</html>
