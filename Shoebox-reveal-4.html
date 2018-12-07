@@ -1742,8 +1742,11 @@ p.nominalBounds = new cjs.Rectangle(-78.5,41,191.5,141.1);
 	this.shoeLoserPrize = new lib.ShoeLoser();
 	this.shoeLoserPrize.name = "shoeLoserPrize";
 	this.shoeLoserPrize.parent = this;
-	this.shoeLoserPrize.setTransform(286.3,132.85);
-	this.timeline.addTween(cjs.Tween.get(this.shoeLoserPrize).wait(1));
+	this.shoeLoserPrize.setTransform(286.3,113.8);
+	this.shape_7 = new cjs.Shape();
+	this.shape_7.graphics.f().s("rgba(35,134,196,0)").ss(1,1,1).p("AhBozICDAAIAARnIiDAA");
+	this.shape_7.setTransform(291,169.2);
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.shape_7},{t:this.shoeLoserPrize}]}).wait(1));
 	// prize
 	this.shoeWinnerPrize = new lib.ShoeWinner();
 	this.shoeWinnerPrize.name = "shoeWinnerPrize";
@@ -1757,16 +1760,16 @@ p.nominalBounds = new cjs.Rectangle(-78.5,41,191.5,141.1);
 	this.openWin.setTransform(279.35,243.6,1,1,0,0,0,-0.5,131.6);
 	this.timeline.addTween(cjs.Tween.get(this.openWin).wait(1));
 	// BG colour
-	this.shape_7 = new cjs.Shape();
-	this.shape_7.graphics.f().s("rgba(35,134,196,0)").ss(1,1,1).p("EgrEAfcIgDAAMAAAg++MBWQAAAMAAAA++IgDAAIAAAHMhWKAAAIAAgHIAA7FMBWKAAAIAAbF");
-	this.shape_7.setTransform(275.1,199.875);
 	this.shape_8 = new cjs.Shape();
-	this.shape_8.graphics.f("#999999").s().p("EgrEANmIAAgGIAA7FMBWJAAAIAAbFIAAAGg");
-	this.shape_8.setTransform(275.125,314.75);
+	this.shape_8.graphics.f().s("rgba(35,134,196,0)").ss(1,1,1).p("EgrEAfcIgDAAMAAAg++MBWQAAAMAAAA++IgDAAIAAAHMhWKAAAIAAgHIAA7FMBWKAAAIAAbF");
+	this.shape_8.setTransform(275.1,199.875);
 	this.shape_9 = new cjs.Shape();
-	this.shape_9.graphics.f("#ECEBE2").s().p("EArGAfgIAA7GMhWKAAAIAAbGIgEAAMAAAg++MBWRAAAMAAAA++g");
-	this.shape_9.setTransform(275.1,199.55);
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.shape_9},{t:this.shape_8},{t:this.shape_7}]}).wait(1));
+	this.shape_9.graphics.f("#999999").s().p("EgrEANmIAAgGIAA7FMBWJAAAIAAbFIAAAGg");
+	this.shape_9.setTransform(275.125,314.75);
+	this.shape_10 = new cjs.Shape();
+	this.shape_10.graphics.f("#ECEBE2").s().p("EArGAfgIAA7GMhWKAAAIAAbGIgEAAMAAAg++MBWRAAAMAAAA++g");
+	this.shape_10.setTransform(275.1,199.55);
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.shape_10},{t:this.shape_9},{t:this.shape_8}]}).wait(1));
 }).prototype = p = new cjs.MovieClip();
 p.nominalBounds = new cjs.Rectangle(273.1,197,279.1,205.8);
 // library properties:
@@ -1882,7 +1885,7 @@ function handleComplete(evt,comp) {
 			stage.tickOnUpdate = true;		
 		}
 	}
-	makeResponsive(false,'both',false,1);	
+	makeResponsive(true,'both',false,1);	
 	AdobeAn.compositionLoaded(lib.properties.id);
 	fnStartAnimation();
 }
